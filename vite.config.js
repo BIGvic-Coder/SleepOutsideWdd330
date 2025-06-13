@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   root: "src/",
+  base: "/SleepOutsideWdd330/", // 👈 Required for GitHub Pages
 
   build: {
     outDir: "../dist",
